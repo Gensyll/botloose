@@ -17,7 +17,7 @@ module.exports = {
                     return url.indexOf('gif', url.length - 'gif'.length) !== -1;
                 })){
                     message.delete()
-                    .then(message.channel.send(`Deleted ${message.author.username}'s GIF. Thanks,`))
+                    .then(message.channel.send(`Deleted ${message.author.username}'s GIF. Thanks, :pinching_hand::eggplant:`))
                     .catch(err => {
                         message.channel.send(`Attempted to delete ${message.author.username}'s GIF, but an error occured.`);
                         console.log(err);
@@ -40,7 +40,7 @@ module.exports = {
                         return urlTrimmedHttp.split('/')[0].search(site);
                     })){
                         message.delete()
-                        .then(message.channel.send(`Deleted ${message.author.username}'s GIF. Thanks,`))
+                        .then(message.channel.send(`Deleted ${message.author.username}'s GIF. Thanks, :pinching_hand::eggplant:`))
                         .catch(err => {
                             message.channel.send(`Attempted to delete ${message.author.username}'s GIF, but an error occured.`);
                             console.log(err);
