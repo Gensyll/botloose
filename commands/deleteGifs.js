@@ -1,4 +1,4 @@
-const {mattID, testID, andrewClientID} = require('../config.json');
+const {andrewClientID} = require('../config.json');
 const {blacklist} = require('../siteblacklist.json');
 
 module.exports = {
